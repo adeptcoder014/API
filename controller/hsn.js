@@ -1,4 +1,4 @@
-const hsnModel = require("../models/hsn")
+const hsnModel = require("../model/hsn")
 
 
 module.exports = {
