@@ -6,7 +6,7 @@ const hsn = require("./routes/hsn")
 
 app.use(cors())
 app.use(express.json())
-app.use("/hsn", hsn)
+app.use("/lauda", hsn)
 
 app.listen(3001, ()=>{console.log("server is running")})
 // module.exports = app;
